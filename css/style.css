@@ -1,12 +1,64 @@
 /* Reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
+}
+
+/* Common */
+
+.d-flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.open-sans-font {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* header */
+
+header {
+    background-color: rgb(224, 145, 89);
+    /* padding: 24px; */
+}
+
+header .big {
+    width: 100%;
+}
+
+header div.d-flex {
+    justify-content: space-between;
+}
+
+header li>a {
+    color: #000;
+}
+
+header ul.d-flex {
+    align-items: center;
+    font-size: 18px;
+}
+
+header li {
+    padding: 24px 20px;
 }
