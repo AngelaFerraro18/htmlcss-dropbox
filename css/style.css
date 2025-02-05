@@ -31,8 +31,7 @@ a {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings:"wdth" 100;
 }
 
 body{
@@ -133,3 +132,23 @@ main i.fa-arrow-down{
     font-size: 40px;
     padding-bottom: 20px;
 }
+
+main .aside-element{
+    width: 390px;
+    
+    
+}
+
+main .jumbotron{
+    position: relative;
+}
+
+main .image-jumbo{
+    width: calc(100% - 390px);
+    position: absolute;
+    top: 240px;
+    left: 390px;
+    
+}
+
+
