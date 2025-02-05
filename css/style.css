@@ -104,9 +104,10 @@ header li a.blue-button:hover{
     margin: 0 auto;
 }
 
-main {
+
+main .box-jumbo{
     background-color: #b4d0e6;
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 main .jumbotron h1{
@@ -141,6 +142,7 @@ main .aside-element{
 
 main .jumbotron{
     position: relative;
+  
 }
 
 main .image-jumbo{
@@ -151,4 +153,9 @@ main .image-jumbo{
     
 }
 
+main hr{
+    margin-top: 130px;
+    color: #f5f5f5;
+    opacity: 0.3;
+}
 
