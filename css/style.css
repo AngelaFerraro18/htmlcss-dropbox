@@ -40,6 +40,11 @@ a {
 header {
     background-color: #ffffff;
     padding: 20px 10px;
+    box-shadow: 0 1px 5px 0 #777;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
 }
 
 header .big {
