@@ -213,6 +213,7 @@ main div.cell-maxwidth{
 
 main .griglia .cells .row{
     padding: 40px 30px;
+   
 }
 
 main h4{
@@ -230,6 +231,7 @@ main .row>span{
 main .griglia .bold-span{
     font-size: 25px;
     padding-bottom: 25px;
+    font-weight: bold;
 }
 
 main .griglia span{
@@ -246,8 +248,8 @@ main .row ul{
   
 }
 
-main .row li:nth-child(2){
-    padding: 15px 0;
+main .row li{
+    padding-top: 15px;
 }
 
 main ul>li{
@@ -277,4 +279,50 @@ main .row .check-list span{
 
 main .fa-check{
     color:#0061fe;
+}
+
+main h4 i{
+    padding-right: 5px;
+}
+
+main .left-part{
+    width: 70%;
+    display: block;
+}
+
+main .right-part{
+    width: 30%;
+
+}
+
+main .right-part .blue-button{
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+}
+
+main .contact{
+    display: flex;
+    padding: 30px 30px;
+}
+
+
+main .left-part p{
+    padding-top: 60px;
+}
+
+main .left-part .bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main .left-part span{
+    display: inline-block;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+main .right-part{
+    position: relative;
+    top: 20px;
 }
