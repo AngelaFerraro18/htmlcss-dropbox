@@ -49,6 +49,10 @@ body{
     font-weight: bold;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 /* header */
 
 header {
@@ -401,4 +405,40 @@ main .container-sec.sec3{
 main .title-sec3{
     font-size: 35px;
     margin-bottom: 65px;
+}
+
+
+/* footer */
+
+footer{
+    margin-top: 190px;
+    background-color: #000;
+    color:#ffffff;
+}
+
+footer .foot-list{
+    padding-top: 110px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3{
+    padding-bottom: 30px;
+}
+
+footer li{
+    padding-top: 15px;
+}
+
+footer li a{
+    color: #ffffff;
+}
+
+footer .d-flex.foot-button{
+    width: 120px;
+    gap: 10px;
+    color: #999999;
+    padding-top: 50px;
+    border-top: 2px solid #999;
 }
