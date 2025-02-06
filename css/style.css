@@ -200,3 +200,21 @@ main .d-flex.choice-box{
     gap: 50px;
     align-items: center;
 }
+
+main .griglia{
+    padding: 50px 0;
+    gap: 50px;
+}
+
+
+main .griglia>div{
+    flex-wrap: wrap;
+    width: calc((100% - 100px) / 3);
+    
+}
+
+main .cells{
+    background-color: #0061fe;
+    border: 2px solid #000;
+}
+
