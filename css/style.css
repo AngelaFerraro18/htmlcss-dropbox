@@ -378,9 +378,16 @@ main .griglia-2{
 }
 
 main .card{
-    background-color: #0061fe;
-    border: 2px solid #000;
     width: calc((100% - 90px) / 3);
     flex-shrink: 0;
 
+}
+
+main .title-grid2{
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+
+main .text{
+    margin-top: 20px;
 }
