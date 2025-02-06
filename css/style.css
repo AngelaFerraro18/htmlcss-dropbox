@@ -185,6 +185,8 @@ main .d-flex.choice-box{
     align-items: center;
 }
 
+/* griglia  */
+
 main .griglia{
     padding: 50px 0;
     gap: 50px;
@@ -200,8 +202,8 @@ main .griglia .cells{
 }
 
 main .cells{
-    background-color: #dbe8fc;
     border: 1px solid #d0cfd4;
+    flex-grow: 1;
 }
 
 
