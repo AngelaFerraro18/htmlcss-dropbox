@@ -26,7 +26,6 @@ a {
 }
 
 body{
-    padding-top: 65px;
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
 }
@@ -46,6 +45,10 @@ body{
     border-radius: 50%;
 }
 
+.bold-span{
+    font-weight: bold;
+}
+
 /* header */
 
 header {
@@ -53,7 +56,6 @@ header {
     padding: 22px 20px;
     box-shadow: 0 1px 5px 0 #777;
     position: fixed;
-    height: 80px;
     width: 100%;
     top: 0;
     z-index: 3;
@@ -65,12 +67,14 @@ header ul{
     gap: 40px;
     align-items: center;
     font-size: 18px;
+
 }
 
 header a{
     color: #000;
     display: block;
 }
+
 
 header li:hover {
 
@@ -105,12 +109,8 @@ main h1{
     margin-bottom: 75px;
 }
 
-main p{
-    padding-bottom: 30px;
-}
-
-main .blue-button{
-    padding: 10px 10px;
+main .aside-element p{
+    margin-bottom: 40px;
 }
 
 main .aside-element span{
@@ -151,6 +151,7 @@ main .image-jumbo{
 
 main .aside-element .blue-button{
     padding: 15px 15px;
+    display: inline-block;
 }
 
 /* main sezione 1 */
@@ -201,9 +202,8 @@ main .griglia .cells{
 main .cells{
     background-color: #dbe8fc;
     border: 1px solid #d0cfd4;
-    /* height: 200px; */
-    /* padding: 0 30px; */
 }
+
 
 main div.cell-maxwidth{
     width: 100%;
@@ -226,7 +226,6 @@ main .row>span{
 }
 
 main .griglia .bold-span{
-    font-weight: bold;
     font-size: 25px;
     padding-bottom: 25px;
 }
@@ -237,7 +236,7 @@ main .griglia span{
 
 main strong{
     display: inline-block;
-   padding-bottom: 15px; 
+    padding-bottom: 15px; 
 }
 
 main .row ul{
@@ -253,4 +252,27 @@ main ul>li{
     display: flex;
     gap: 5px;
     align-items: baseline;
+}
+
+main .row .blue-button{
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+main .row .underline{
+    text-decoration: underline;
+}
+
+main .row .check-list span{
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+main .fa-check{
+    color:#0061fe;
 }
