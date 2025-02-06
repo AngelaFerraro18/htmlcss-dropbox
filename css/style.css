@@ -83,7 +83,7 @@ header .blue-button {
     padding: 7px 10px;
 }
 
-header .blue-button:hover{
+header li.blue-button:hover{
     filter: brightness(1.4);
     border: none;
 }
@@ -149,6 +149,10 @@ main .image-jumbo{
     display: flex;    
 }
 
+main .aside-element .blue-button{
+    padding: 15px 15px;
+}
+
 /* main sezione 1 */
 
 main .container-sec{
@@ -188,9 +192,9 @@ main .griglia{
 
 
 main .griglia .cells{
-    flex-wrap: wrap;
     width: calc((100% - 100px) / 3);
     flex-shrink: 0;
+
     
 }
 
@@ -205,10 +209,48 @@ main div.cell-maxwidth{
     width: 100%;
 }
 
+main .griglia .cells .row{
+    padding: 40px 30px;
+}
+
 main h4{
     padding: 12px 0;
     border-bottom: 1px solid #d0cfd4;
     text-align: center;
     font-size: 14px;
     font-weight: lighter;
+}
+
+main .row>span{
+    display: inline-block;
+}
+
+main .griglia .bold-span{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+main .griglia span{
+    font-weight: lighter;
+}
+
+main strong{
+    display: inline-block;
+   padding-bottom: 15px; 
+}
+
+main .row ul{
+    margin: 55px 0;
+  
+}
+
+main .row li:nth-child(2){
+    padding: 15px 0;
+}
+
+main ul>li{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
 }
