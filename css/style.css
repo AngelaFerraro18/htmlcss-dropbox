@@ -25,17 +25,10 @@ a {
     text-decoration: none;
 }
 
-
-.open-sans-font {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-}
-
 body{
     padding-top: 65px;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 }
 
 .blue-button{
@@ -58,49 +51,39 @@ body{
 
 header {
     background-color: #ffffff;
-    padding: 20px 10px;
+    padding: 22px 20px;
     box-shadow: 0 1px 5px 0 #777;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 3;
+    display: flex;
+    justify-content: space-between;
 }
 
-header .big {
-    width: 100%;
-    margin: 0 auto;
-}
-
-header .d-flex{
-   justify-content: space-between;
-}
-
-
-header li>a {
-    color: #000;
-    padding: 20px 20px;
-}
-
-header ul.d-flex {
+header ul{
+    gap: 40px;
     align-items: center;
     font-size: 18px;
 }
 
+header a{
+    color: #000;
+}
+
 header li a:hover {
     border-bottom: 2px solid #000;
-    transition: 0.3s;
 }
 
 header li a.blue-button {
+    display: inline-block;
     background-color: #0061fe;
     color: #ffffffff;
     padding: 7px 10px;
 }
 
-header li a.blue-button:hover{
-    background-color: #609af8;
-    border-bottom: none;
-    transition: 0.3s;
+header li .blue-button:hover{
+    filter: brightness(1.4);
 }
 
 
@@ -111,13 +94,7 @@ header li a.blue-button:hover{
     margin: 0 auto;
 }
 
-
-main .box-jumbo{
-    background-color: #b4d0e6;
-    padding-top: 140px;
-}
-
-main .jumbotron h1{
+main h1{
     font-size: 60px;
     margin-bottom: 75px;
 }
@@ -142,35 +119,31 @@ main i.fa-arrow-down{
 }
 
 main .aside-element{
-    width: 390px;
+    width: 30%;
     
-    
+}
+
+main .container{
+    position: relative;
+    top: 100px;
 }
 
 main .jumbotron{
-    position: relative;
-  
+    background-color: #b4d0e6;
+    padding-top: 140px;
+    margin-bottom: 150px;
+}
+
+main .jumbo-info{
+    display: flex;
 }
 
 main .image-jumbo{
-    width: calc(100% - 390px);
-    position: absolute;
-    top: 240px;
-    left: 390px;
-    
-}
-
-main hr{
-    margin-top: 130px;
-    color: #f5f5f5;
-    opacity: 0.3;
+    width: 70%;
+    display: flex;    
 }
 
 /* main sezione 1 */
-
-main .sec-box{
-    padding-top: 55px;
-}
 
 main .container-sec{
     width: 1000px;
@@ -216,5 +189,9 @@ main .griglia>div{
 main .cells{
     background-color: #0061fe;
     border: 2px solid #000;
+}
+
+main .cell-maxwidth{
+    width: 100%;
 }
 
