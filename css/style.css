@@ -113,7 +113,7 @@ main .blue-button{
     padding: 10px 10px;
 }
 
-main span{
+main .aside-element span{
     display: block;
     padding-top: 30px;
     padding-bottom: 80px;
@@ -187,7 +187,7 @@ main .griglia{
 }
 
 
-main .griglia div{
+main .griglia .cells{
     flex-wrap: wrap;
     width: calc((100% - 100px) / 3);
     flex-shrink: 0;
@@ -195,12 +195,20 @@ main .griglia div{
 }
 
 main .cells{
-    background-color: #0061fe;
-    border: 2px solid #000;
-    height: 200px;
+    background-color: #dbe8fc;
+    border: 1px solid #d0cfd4;
+    /* height: 200px; */
+    /* padding: 0 30px; */
 }
 
 main div.cell-maxwidth{
     width: 100%;
 }
 
+main h4{
+    padding: 12px 0;
+    border-bottom: 1px solid #d0cfd4;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+}
